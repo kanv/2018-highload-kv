@@ -20,6 +20,15 @@ dependencies {
 
     // HTTP client for unit tests
     testCompile("org.apache.httpcomponents:fluent-hc:4.5.3")
+
+    // Logging
+    compile("org.apache.logging.log4j:log4j-core:2.11.2")
+
+    // KVDB
+    compile("org.mapdb:mapdb:3.0.7")
+
+    // HTTP server
+    compile("ru.odnoklassniki:one-nio:1.0.2")
 }
 
 tasks {
